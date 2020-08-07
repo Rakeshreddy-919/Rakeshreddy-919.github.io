@@ -2,13 +2,23 @@
 <html>
     <head>
         <title>Interior & Design</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
         <link rel="stylesheet" href="style.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+       <style type="text/css">
+          a span:hover {
+            color: rgb(245, 221, 8) !important;
+          }
+
+          a:hover{
+            text-decoration: none;
+          }
+        </style>
     </head>
     <body>
         <nav class="navbar navbar-expand-md bg-dark fixed-top">
@@ -38,56 +48,79 @@
               </ul>
             </div>
           </nav>
-          <div class="contact-form">
+
+
+          <div class="container-fluid d-flex flex-column">
+            <section>
+              <div class="contact-form">
             <div class="contact-header1">
                 <h1>Contact Us</h1>
             </div>
             <div class="contact-header2">
-                  <p> <a href="index.html" style="text-decoration: none; color:rgb(255, 208, 0) ;">Home</a>/Contact</p>
+                  <p style="color: rgb(255, 208, 0); font-size: 16px;"> <a href="index.html"><span style="color:white;">Home /</span> </a> Contact </p>
             </div>
             <div class="contact-form-container">
-              <h1 style="font-size: 25px; color: white;margin-bottom: 20px;">Send Us Message</h1>
-                <div class="row">
+              <h1 style="font-size: 25px; color: white;margin-bottom: 20px;">Send us a message</h1>
+                <div class="row d-flex justify-content-between align-items-stretch">
                   
-                    <div class="col-md-4">
-                       <input type="text" name="name" placeholder="Your Name" id="name"><br>
-                       <input type="email" name="email" placeholder="Your Email" id="email"><br>
-                       <input type="text" name="number" placeholder="Your Number" id="number"><br>
+                    <div class="col-md-6 d-flex flex-column justify-content-between align-items-stretch py-md-4">
+                       <input type="text" class="my-1" name="name" placeholder="Your Name" id="name"><br>
+                       <input type="email" class="my-1" name="email" placeholder="Your Email" id="email"><br>
+                       <input type="text" class="my-1" name="number" placeholder="Your Number" id="number">
                     
                     </div>
-                    <div class="col-md-4">
-                      <textarea  placeholder="Your Message" style="width: 400px;height: 200px;background-color: black; outline: none; color: wheat;"></textarea>
-                      <button type="button" name="button">Submit </button>
-                    </div>
-                    
-                    <div class="col-md-4">
-                      <h4>Contact Us</h4>
-                      <p> Road No 6,Banjara Hills ,Hyderabad ,Telangana</p>
-                      <p>Phone:<span style="color: rgb(255, 208, 0);">9876543210</span></p>
-                      <p>Web:<a href="#"><span style="color: rgb(255, 208, 0);">www.goldenluxury.com</span></a></p>
-                      <p>Email:<a href="#"><span style="color: rgb(255, 208, 0);">goldenluxury111@gamil.com</span></a></p>
+                    <div class="col-md-4 py-4">
+                      <textarea placeholder="Your Message" style="width: 100%;height: 100%;background-color:black; outline: none; color: black;"></textarea>
+                      
                     </div>
                 </div>
+
+                <div class="text-right pt-1">
+                  <button type="button" class="mt-3" name="button">Submit </button>
+                </div>
+                    
+                <div class="row justify-content-center pt-5">
+                  <div class="col-8 text-center" style="font-size: 16px;">
+                    <h4 style="color:white;">Contact Us</h4>
+                    <p style="color:white;" class="mb-1"> Road No 6,Banjara Hills ,Hyderabad ,Telangana</p>
+                    <p class="d-inline" style="color:white;">Phone:<span style="color: rgb(255, 208, 0);">9876543210</span> |</p>
+                    <p class="d-inline" style="color:white;">Web:<a href="#"><span style="color: rgb(255, 208, 0);">www.goldenluxury.com</span></a> | </p>
+                    <p class="d-inline" style="color:white;">Email:<a href="#"><span style="color: rgb(255, 208, 0);">goldenluxury111@gamil.com</span></a></p>
+                  </div>
+                </div>
+              
                 
               </div>
              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27021.03847269797!2d78.42473993741874!3d17.420834171705987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97323834694b%3A0x1fff3283e6fdac61!2sRd%20Number%206%2C%20Banjara%20Hills%2C%20Hyderabad%2C%20Telangana%20500034!5e0!3m2!1sen!2sin!4v1596384644050!5m2!1sen!2sin" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           </div>
-             <div class="bottom">
-            <div class="copyright">
-              <p>	&#169; Copyright 2020</p>
-            </div>
-            <div class="social-media">
-             <a href="#"><i class="fa fa-facebook-f"></i></a>
-             <a href="#"><i class="fa fa-twitter"></i></a>
-             <a href="#"><i class="fa fa-instagram"></i></a>
-             <a href="#"> <i class="fa fa-skype"></i></a>
-               <a href="#"><i class="fa fa-youtube-play"></i></a>
-            </div>
- 
-        </div>
-        
 
-          
+            </section>
+
+
+            <section class="footer">
+          <footer>  
+                <div class="footer">
+                  <div class="row pt-2 pb-3 px-4">
+                    <div class="col-12">
+                      <div class="bottom row align-items-between justify-content-between">
+                        <div class="copyright col-sm-6 text-sm-left text-center">
+                          <p> &#169; Copyright 2020</p>
+                        </div>
+                        <div class="social-media col-sm-6 text-sm-right text-center">
+                          <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"> <i class="fa fa-skype"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+              </div>             
+              </footer>
+        </section>
+          </div>
+
       
         
 
