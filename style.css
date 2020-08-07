@@ -90,7 +90,7 @@ ul li a{
     }
    .tab-content{
        padding: 15px;
-       background-image: url("images/8.jpg");
+       background-image: url("8.jpg");
       
    } 
    .tab-content .row .col-md-3{
@@ -150,7 +150,7 @@ ul li a{
           
 }
 .working-hours{
-    background-image: url("images/working-hours.jpg");
+    background-image: url("working-hours.jpg");
      width: 100%;
     opacity: 0.9;
     height:350px;
@@ -224,7 +224,7 @@ ul li a{
         color: rgb(255, 208, 0);
     }
     .about-header{
-        background-image: url("images/about.jpg");
+        background-image: url("about.jpg");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -236,7 +236,7 @@ ul li a{
         font-family: sans-serif;
     }
     .about .about-header2{
-        background-image: url("images/about2.jpg");
+        background-image: url("about2.jpg");
         height: 50px;
         text-align: center;
         color: white;
@@ -253,7 +253,7 @@ ul li a{
    
      
     .customers{
-        background-image: url("images/customer.jpg");
+        background-image: url("customer.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -283,7 +283,7 @@ ul li a{
    
     
    .contact-form  .contact-header1{
-    background-image: url("images/about.jpg");
+    background-image: url("about.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -296,7 +296,7 @@ ul li a{
     
     }
     .contact-form .contact-header2{
-        background-image: url("images/about2.jpg");
+        background-image: url("about2.jpg");
         height: 50px;
         text-align: center;
         color: white;
