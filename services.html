@@ -1,8 +1,8 @@
 <html>
     <head>
-        <title>Golden Luxury</title>
+        <title>Interior & design</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
         <link rel="stylesheet" href="style.css" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Eater' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,6 +11,15 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
          <script src="javascript.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <style type="text/css">
+          a span:hover {
+            color: rgb(245, 221, 8) !important;
+          }
+
+          a:hover{
+            text-decoration: none;
+          }
+        </style>
     </head>
     <body>
       <nav class="navbar navbar-expand-md bg-dark fixed-top">
@@ -32,7 +41,7 @@
               <a class="nav-link" href="About.html">ABOUT US</a>
             </li>
             <li class="nav-item pr-4">
-              <a class="nav-link " href="services.html" style="color: orange;">SERVICES</a>
+              <a class="nav-link " style="color: orange;" href="services.html">SERVICES</a>
             </li>
             <li class="nav-item pr-4">
                 <a class="nav-link" href="contact.html">CONTACT US</a>
@@ -42,12 +51,14 @@
       </nav>
       
       
-        <div class="about">
+        <div class="container-fluid d-flex flex-column">
+          <section class="about">
+            <div class="about">
           <div class="about-header">
               <h1 id="services">Commercial</h1>
           </div>
           <div class="about-header2">
-                 <p> <a href="index.html"><span style="color: rgb(255, 208, 0);">Home</span> </a>/<a href="About.html"><span style="color: rgb(255, 208, 0);">About</span> </a>/ <span id="header2">Commercial</span> </p>
+                 <p> <a href="index.html"><span style="color:white;">Home</span> </a> / <a href="About.html"><span style="color:white;">About</span> </a> / <span id="header2" style="color: rgb(255, 208, 0);">Commercial</span> </p>
           </div>
           <div class="project-container">
             <!-- projects-->
@@ -56,20 +67,20 @@
               <ul class="nav nav-pills pro" role="tablist">
                
                 <li class="nav-item">
-                  <a class="nav-link active" data-toggle="pill" href="#commercial1" id="commercial" onclick="commercial()">Commerical</a>
+                  <a class="nav-link rounded active" data-toggle="pill" href="#commercial1" id="commercial" onclick="commercial()">Commerical</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="pill" href="#office1" id="office" onclick="office()">Office</a>
+                  <a class="nav-link rounded" data-toggle="pill" href="#office1" id="office" onclick="office()">Office</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" data-toggle="pill" href="#residential1"id="residential" onclick="residential()">Residential</a>
+                  <a class="nav-link rounded" data-toggle="pill" href="#residential1"id="residential" onclick="residential()">Residential</a>
                 </li>
               </ul>
             </div>
             <div class="tab-content" style="color: white;padding:8%; font-size: 20px;">
               <div id="commercial1" class="tab-pane  active"><br>
-                <div class="row">
-                  <div class="col-md-6">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-lg-6">
                       <h1 style="font-family: sans-serif;color:rgb(255, 208, 0) ">Commerical Design</h1> 
                       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur a suscipit sed alias, nam excepturi? Distinctio, nobis in aliquam sunt quisquam, quis nostrum vero vitae, corporis deleniti fuga labore?</p>
                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quam eveniet doloremque, adipisci, in perferendis facilis quaerat minima vel eum corporis, vitae animi? Dolor tempora commodi quo perspiciatis nulla modi!</p>
@@ -77,36 +88,36 @@
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, numquam. Eveniet magnam blanditiis ducimus velit necessitatibus nisi omnis sed totam mollitia laudantium praesentium vel iure tempore est laboriosam, voluptate quasi.</p>
                   </div>
                   
-                  <div class="col-md-6">
-                       <img src="commercial4.jpg"    alt="aboutimage"  width="500px" height="500px" style="margin-top: 50px;">
+                  <div class="col-lg-6 d-flex align-items-stretch justify-content-center">
+                       <img src="commercial4.jpg" class="img-fluid rounded" alt="aboutimage" width="500px" height="500px">
                   </div>
                 </div>
                 </div>
                 <div id="office1" class="tab-pane fade "><br>
-                  <div class="row">
-                    <div class="col-md-6">
+                  <div class="row d-flex justify-content-start">
+                    <div class="col-lg-6">
                         <h1 style="font-family: sans-serif;color:rgb(255, 208, 0) ">Office Design</h1> 
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur a suscipit sed alias, nam excepturi? Distinctio, nobis in aliquam sunt quisquam, quis nostrum vero vitae, corporis deleniti fuga labore?</p>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quam eveniet doloremque, adipisci, in perferendis facilis quaerat minima vel eum corporis, vitae animi? Dolor tempora commodi quo perspiciatis nulla modi!</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, numquam. Eveniet magnam blanditiis ducimus velit necessitatibus nisi omnis sed totam mollitia laudantium praesentium vel iure tempore est laboriosam, voluptate quasi.</p>
                     </div>
                     
-                    <div class="col-md-6">
-                         <img src="office3.jpg"  alt="aboutimage" width="500px" height="500px" style="margin-top: 50px;">
+                    <div class="col-lg-6 d-flex align-items-stretch">
+                         <img src="office3.jpg" class="img-fluid rounded" alt="aboutimage" width="500px" height="500px">
                     </div>
                   </div>
                   </div>
                   <div id="residential1" class="tab-pane fade "><br>
-                    <div class="row">
-                      <div class="col-md-6">
+                    <div class="row d-flex justify-content-start">
+                      <div class="col-lg-6">
                           <h1 style="font-family: sans-serif;color:rgb(255, 208, 0) ">Residential Design</h1> 
                           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur a suscipit sed alias, nam excepturi? Distinctio, nobis in aliquam sunt quisquam, quis nostrum vero vitae, corporis deleniti fuga labore?</p>
                           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quam eveniet doloremque, adipisci, in perferendis facilis quaerat minima vel eum corporis, vitae animi? Dolor tempora commodi quo perspiciatis nulla modi!</p>
                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, numquam. Eveniet magnam blanditiis ducimus velit necessitatibus nisi omnis sed totam mollitia laudantium praesentium vel iure tempore est laboriosam, voluptate quasi.</p>
                       </div>
                       
-                      <div class="col-md-6">
-                           <img src="residential2.jpg"  alt="aboutimage" width="500px" height="500px" style="margin-top: 50px;">
+                      <div class="col-lg-6 d-flex align-items-stretch">
+                           <img src="residential2.jpg" class="img-fluid rounded" alt="aboutimage" width="500px" height="500px">
                       </div>
                     </div>
                     </div>
@@ -114,47 +125,76 @@
                 </div>
               </div>
           </div>
-           <!--Contact-->
-         <div class="contact">
-          <!--contact button-->
-          <button type="button" class="contact-button"><a href="contact.html" style="text-decoration: none;color: white;">Contact US</a></button>
+          </section>
+
+          <!--Contact-->
+
+        <section class="contact">
+            <div class="contact">
+              <!--contact button-->
+                <button type="button" class="contact-button rounded"><a href="contact.html" style="text-decoration: none;color: white;">Contact Us</a></button>
+               
+            </div>
+        </section>
+
+        <!---Working Hours  -->
+
+        <section class="working-hours">
+              <div class="working-hours">
+                <div class="working-hours-container rounded p-3">
+                  <p>Hours Of<span style="color: rgb(255, 208, 0);"> Working</span></p>
+                    <p>Monday to Friday :<span style="color: rgb(255, 208, 0);"> 10:00AM to 9:00PM</span></p>
+                    <p> Saturday: <span style="color: rgb(255, 208, 0);"> 10:00AM to 1:00PM</span></p>
+                    <p> Sunday<span style="color: rgb(255, 208, 0);"> Holiday</span></p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!---footer-------->
+
+        <section class="footer">
+          <footer>  
+                <div class="footer pb-2">
+                  <div class="row pb-2 justify-content-between">
+                    <div class="col-md-6">
+                        <div class="content d-flex flex-column align-items-center">
+                            <img src="icon.jpg" width="400px" height="200px" class="pb-3">
+                            <p style="color:white;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci ad eveniet aliquid. Quo dolores blanditiis non repellendus consequatur magnam fugit quaerat quisquam, aperiam at labore illum unde minima sequi minus?</p>
+                            <p style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi provident magni, dolores eius nemo consectetur aperiam sed cupiditate neque quas a quae. Aliquam corporis ratione incidunt ad quos ipsa asperiores!</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="contact1">
+                            <h4>Contact Us</h4>
+                            <p> Road No 6,Banjara Hills ,Hyderabad ,Telangana</p>
+                            <p>Phone:<span style="color: rgb(255, 208, 0);">9876543210</span></p>
+                            <p>Web:<a href="#"><span style="color: rgb(255, 208, 0);">www.goldenluxury.com</span></a></p>
+                            <p>Email:<a href="#"><span style="color: rgb(255, 208, 0);">goldenluxury111@gamil.com</span></a></p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row pt-2 pb-3 px-4">
+                    <div class="col-12">
+                      <div class="bottom row align-items-between justify-content-between">
+                        <div class="copyright col-sm-6 text-sm-left text-center">
+                          <p> &#169; Copyright 2020</p>
+                        </div>
+                        <div class="social-media col-sm-6 text-sm-right text-center">
+                          <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"> <i class="fa fa-skype"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+              </div>             
+              </footer>
+        </section>
+
         </div>
-         <!---footer-------->
-         <div class="footer">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="content">
-                <img src="icon.jpg" width="250px" height="200px">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci ad eveniet aliquid. Quo dolores blanditiis non repellendus consequatur magnam fugit quaerat quisquam, aperiam at labore illum unde minima sequi minus?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi provident magni, dolores eius nemo consectetur aperiam sed cupiditate neque quas a quae. Aliquam corporis ratione incidunt ad quos ipsa asperiores!</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-
-            </div>
-            <div class="col-md-4">
-              <div class="contact1">
-                  <h4>Contact Us</h4>
-                <p> Road No 6,Banjara Hills ,Hyderabad ,Telangana</p>
-                <p>Phone:<span style="color: rgb(255, 208, 0);">9876543210</span></p>
-                <p>Web:<a href="#"><span style="color: rgb(255, 208, 0);">www.goldenluxury.com</span></a></p>
-                <p>Email:<a href="#"><span style="color: rgb(255, 208, 0);">goldenluxury@gamil.com</span></a></p>
-              </div>
-            </div>
-          </div>
-        </div>      
-       <div class="bottom">
-           <div class="copyright">
-             <p>	&#169; Copyright 2020</p>
-           </div>
-           <div class="social-media">
-            <a href="#"><i class="fa fa-facebook-f"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-instagram"></i></a>
-            <a href="#"> <i class="fa fa-skype"></i></a>
-              <a href="#"><i class="fa fa-youtube-play"></i></a>
-           </div>
-
-       </div>
     </body>
 </html>
