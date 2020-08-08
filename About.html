@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Golden Luxury </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Interior & Design</title>
+        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
         <link rel="stylesheet" href="style.css" type="text/css">
         <link href='https://fonts.googleapis.com/css?family=Eater' rel='stylesheet'>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -10,14 +10,24 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+        <style type="text/css">
+          a span:hover {
+            color: rgb(245, 221, 8) !important;
+          }
+
+          a:hover{
+            text-decoration: none;
+          }
+        </style>
     </head>
     <body>
         <nav class="navbar navbar-expand-md bg-dark fixed-top">
             <!-- Brand -->
-            <a class="navbar-brand" href="#" style="font-size: 25px; font-family: Eater ; padding-right: 10px; color:orange;">goldenluxury</a>
+            <a class="navbar-brand " href="#" style="font-size: 25px; font-family: Eater ; padding-right: 10px; color: orange;">goldenluxury</a>
           
             <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler bg-warning " style="color: white;" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <button class="navbar-toggler bg-warning " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
               <span class="navbar-toggler-icon"></span>
             </button>
           
@@ -28,122 +38,162 @@
                   <a class="nav-link" href="index.html">HOME</a>
                 </li>
                 <li class="nav-item pr-4">
-                  <a class="nav-link" href="About.html" style="color: orange;">ABOUT US</a>
+                  <a class="nav-link" style="color: orange;" href="About.html">ABOUT US</a>
                 </li>
                 <li class="nav-item pr-4">
                   <a class="nav-link" href="services.html">SERVICES</a>
                 </li>
                 <li class="nav-item pr-4">
-                    <a class="nav-link" href="contact.html" >CONTACT US</a>
+                    <a class="nav-link" href="contact.html">CONTACT US</a>
                   </li>
               </ul>
             </div>
           </nav>
-        <div class="about">
-            <div class="about-header">
-                <h1>ABOUT US</h1>
+        
+        <div class="container-fluid d-flex flex-column">
+          <section class="about">
+            <div class="about">
+              <div class="about-header">
+                  <h1>ABOUT US</h1>
+              </div>
+              <div class="about-header2">
+                     <p style="color: rgb(255, 208, 0);"> <a href="index.html"><span style="color:white;">Home /</span> </a> About </p>
+              </div>
+              <div class="about-container">
+                  <div class="row">
+                      <div class="col-md-6">
+                          <h1 style="font-family: sans-serif;color:rgb(255, 208, 0) ">Best Interior Design</h1> 
+                          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur a suscipit sed alias, nam excepturi? Distinctio, nobis in aliquam sunt quisquam, quis nostrum vero vitae, corporis deleniti fuga labore?</p>
+                          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quam eveniet doloremque, adipisci, in perferendis facilis quaerat minima vel eum corporis, vitae animi? Dolor tempora commodi quo perspiciatis nulla modi!</p>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, numquam. Eveniet magnam blanditiis ducimus velit necessitatibus nisi omnis sed totam mollitia laudantium praesentium vel iure tempore est laboriosam, voluptate quasi.</p>
+                      </div>
+                      
+                      <div class="col-md-6">
+                           <img src="icon.jpg" class="img-fluid" alt="aboutimage" width="350px" height="350px" style="margin-top: 50px;">
+                      </div>
+                  </div>
+              </div>
             </div>
-            <div class="about-header2">
-                   <p> <a href="index.html"><span style="color: rgb(255, 208, 0);">Home</span> </a>/ About </p>
-            </div>
-            <div class="about-container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h1 style="font-family: sans-serif;color:rgb(255, 208, 0) ">Best Interior Design</h1> 
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto consectetur a suscipit sed alias, nam excepturi? Distinctio, nobis in aliquam sunt quisquam, quis nostrum vero vitae, corporis deleniti fuga labore?</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus quam eveniet doloremque, adipisci, in perferendis facilis quaerat minima vel eum corporis, vitae animi? Dolor tempora commodi quo perspiciatis nulla modi!</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, numquam. Eveniet magnam blanditiis ducimus velit necessitatibus nisi omnis sed totam mollitia laudantium praesentium vel iure tempore est laboriosam, voluptate quasi.</p>
-                    </div>
-                    
-                    <div class="col-md-6">
-                         <img src="icon.jpg" class="about-image" alt="aboutimage" width="450px" height="350px" style="margin-top: 50px;">
-                    </div>
-                </div>
-            </div>
+          </section>
 
-        </div>
-        <div class="customers">
-            <div class="customers-heading">Customers Says</div>
-            <div id="demo" class="carousel slide" data-ride="carousel">
-                <ul class="carousel-indicators">
+
+          <section class="customers">
+            <div class="row justify-content-center">
+              <div class="col-md-6">
+                <div class="customers d-flex flex-column justify-content-start align-items-center">
+              <div class="customers-heading mb-5">Customers Says</div>
+                <div id="demo" class="carousel slide mt-md-5 pt-md-5 mt-3 pt-3 px-4" data-ride="carousel">
+                  <ul class="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" class="active"></li>
                     <li data-target="#demo" data-slide-to="1"></li>
                     <li data-target="#demo" data-slide-to="2"></li>
                   </ul>
                   <div class="carousel-inner">
-                    <div class="carousel-item active ">
-                        <div class="media border p-3">
-                            <img src="img_avatar3.jpg" alt="John Doe" class=" rounded-circle" style="width:100px; height: 100px;">
-                            <div class="media-body">
-                              <h4>John Doe </h4>
-                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, nisi autem. Molestiae corrupti nemo qui</p>
-                            </div>
-                          </div>   
+                    <div class="carousel-item active">
+                      <div class="media border p-3">
+                        <img src="img_avatar3.jpg" alt="John Doe" class=" rounded-circle" style="width:100px; height: 100px;">
+                        <div class="media-body">
+                          <h4>John Doe </h4>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, nisi autem. Molestiae corrupti nemo qui</p>
+                        </div>
+                      </div>   
                     </div>
                     <div class="carousel-item">
-                        <div class="media border p-3">
-                            <img src="img_avatar2.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:100px; height: 100px;">
-                            <div class="media-body">
-                              <h4>Josephine</h4>
-                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, nisi autem. Molestiae corrupti nemo qui</p>
-                            </div>
-                          </div>   
+                      <div class="media border p-3">
+                        <img src="img_avatar2.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:100px; height: 100px;">
+                        <div class="media-body">
+                          <h4>Josephine</h4>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, nisi autem. Molestiae corrupti nemo qui</p>
+                        </div>
+                      </div>   
                     </div>
                     <div class="carousel-item">
-                        <div class="media border p-3">
-                            <img src="img_avatar1.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:100px; height: 100px;">
-                            <div class="media-body">
-                              <h4>Giselle</h4>
-                              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, nisi autem. Molestiae corrupti nemo qui </p>
-                            </div>
-                          </div>  
+                      <div class="media border p-3">
+                        <img src="img_avatar1.jpg" alt="John Doe" class="mr-3 mt-3 rounded-circle" style="width:100px; height: 100px;">
+                        <div class="media-body">
+                          <h4>Giselle</h4>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, nisi autem. Molestiae corrupti nemo qui </p>
+                        </div>
+                      </div>  
                     </div>
-                  </div>
-                 
+                  </div>  
                 </div>
-        </div>
-         <!--Contact-->
-         <div class="contact">
-            <!--contact button-->
-            <button type="button" class="contact-button"><a href="contact.html" style="text-decoration: none;color: white;">Contact US</a></button>
-          </div>
-           <!---footer-------->
-           <div class="footer">
-            <div class="row">
-              <div class="col-md-4">
-                <div class="content">
-                  <img src="icon.jpg" width="250px" height="200px">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci ad eveniet aliquid. Quo dolores blanditiis non repellendus consequatur magnam fugit quaerat quisquam, aperiam at labore illum unde minima sequi minus?</p>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi provident magni, dolores eius nemo consectetur aperiam sed cupiditate neque quas a quae. Aliquam corporis ratione incidunt ad quos ipsa asperiores!</p>
-                </div>
-              </div>
-              <div class="col-md-4">
-
-              </div>
-              <div class="col-md-4">
-                <div class="contact1">
-                    <h4>Contact Us</h4>
-                  <p> Road No 6,Banjara Hills ,Hyderabad ,Telangana</p>
-                  <p>Phone:<span style="color: rgb(255, 208, 0);">9876543210</span></p>
-                  <p>Web:<a href="#"><span style="color: rgb(255, 208, 0);">www.goldenluxury.com</span></a></p>
-                  <p>Email:<a href="#"><span style="color: rgb(255, 208, 0);">goldenluxury@gamil.com</span></a></p>
-                </div>
+            </div>
               </div>
             </div>
-          </div>      
-         <div class="bottom">
-             <div class="copyright">
-               <p>	&#169; Copyright 2020</p>
-             </div>
-             <div class="social-media">
-              <a href="#"><i class="fa fa-facebook-f"></i></a>
-              <a href="#"><i class="fa fa-twitter"></i></a>
-              <a href="#"><i class="fa fa-instagram"></i></a>
-              <a href="#"> <i class="fa fa-skype"></i></a>
-                <a href="#"><i class="fa fa-youtube-play"></i></a>
-             </div>
+          </section>
 
-         </div>
+
+          <!--Contact-->
+
+        <section class="contact">
+            <div class="contact">
+              <!--contact button-->
+                <button type="button" class="contact-button rounded"><a href="contact.html" style="text-decoration: none;color: white;">Contact Us</a></button>
+               
+            </div>
+        </section>
+
+        <!---Working Hours  -->
+
+        <section class="working-hours">
+              <div class="working-hours">
+                <div class="working-hours-container rounded p-3">
+                  <p>Hours Of<span style="color: rgb(255, 208, 0);"> Working</span></p>
+                    <p>Monday to Friday :<span style="color: rgb(255, 208, 0);"> 10:00AM to 9:00PM</span></p>
+                    <p> Saturday: <span style="color: rgb(255, 208, 0);"> 10:00AM to 1:00PM</span></p>
+                    <p> Sunday<span style="color: rgb(255, 208, 0);"> Holiday</span></p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!---footer-------->
+
+        <section class="footer">
+          <footer>  
+                <div class="footer pb-2">
+                  <div class="row pb-2 justify-content-between">
+                    <div class="col-md-6">
+                        <div class="content d-flex flex-column align-items-center">
+                            <img src="icon.jpg" width="400px" height="200px" class="pb-3">
+                            <p style="color:white;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci ad eveniet aliquid. Quo dolores blanditiis non repellendus consequatur magnam fugit quaerat quisquam, aperiam at labore illum unde minima sequi minus?</p>
+                            <p style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi provident magni, dolores eius nemo consectetur aperiam sed cupiditate neque quas a quae. Aliquam corporis ratione incidunt ad quos ipsa asperiores!</p>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="contact1">
+                            <h4>Contact Us</h4>
+                            <p> Road No 6,Banjara Hills ,Hyderabad ,Telangana</p>
+                            <p>Phone:<span style="color: rgb(255, 208, 0);">9876543210</span></p>
+                            <p>Web:<a href="#"><span style="color: rgb(255, 208, 0);">www.goldenluxury.com</span></a></p>
+                            <p>Email:<a href="#"><span style="color: rgb(255, 208, 0);">goldenluxury111@gamil.com</span></a></p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="row pt-2 pb-3 px-4">
+                    <div class="col-12">
+                      <div class="bottom row align-items-between justify-content-between">
+                        <div class="copyright col-sm-6 text-sm-left text-center">
+                          <p> &#169; Copyright 2020</p>
+                        </div>
+                        <div class="social-media col-sm-6 text-sm-right text-center">
+                          <a href="#"><i class="fa fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"> <i class="fa fa-skype"></i></a>
+                            <a href="#"><i class="fa fa-youtube-play"></i></a>
+                      </div>
+                    </div>
+                    </div>
+                  </div>
+              </div>             
+              </footer>
+        </section>
+
+
+        </div>
 
     </body>
 </html>
