@@ -1,530 +1,551 @@
 <!DOCTYPE html>
-<html >
-    <head>
-        <title>Golden Luxury</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <link href='https://fonts.googleapis.com/css?family=Eater' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-    </head>
-   <body>
-    <nav class="navbar navbar-expand-md bg-dark fixed-top">
-        <!-- Brand -->
-        <a class="navbar-brand " href="#" style="font-size: 25px; font-family: Eater ; padding-right: 10px; color: orange;">goldenluxury</a>
-      
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler bg-warning " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav ml-auto p-3">
-            <li class="nav-item pr-4">
-              <a class="nav-link " style="color: orange;" href="#">HOME</a>
+<html>
+
+<head>
+  <title>Interior & Design</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="styles_1.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-md bg-dark fixed-top">
+    <!-- Brand -->
+  <a class="navbar-brand " href="#" style="font-size: 25px; font-family: Eater ; padding-right: 10px; color: rgb(255, 208, 0);">goldenluxury</a>
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler bg-warning " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"><i
+class="fas fa-bars fa"></i></span></span>
+    </button>
+
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto p-3">
+        <li class="nav-item pr-4">
+          <a class="nav-link text-warning" href="#">HOME</a>
+        </li>
+        <li class="nav-item pr-4">
+          <a class="nav-link" href="About.html">ABOUT US</a>
+        </li>
+        <li class="nav-item pr-4">
+          <a class="nav-link" href="services.html">SERVICES</a>
+        </li>
+        <li class="nav-item pr-4">
+          <a class="nav-link" href="contact.html">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!---HOME- Container--------->
+
+  <div class="container-fluid d-flex flex-column">
+    <section class="carousel">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+        <!--indicators-->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <!--the slide show-->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="2.jpg" alt="hero1" width="100%" height="750">
+            <div class="carousel-caption">
+              <h3 style="font-size: 30px;font-family: cursive;">Golden<span style="color: rgb(255, 208, 0); ;"> Luxury</span></h3>
+              <p style="font-size: 20px; font-family: monospace;">“Every design choice we make has a sensual effect on us.”</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="3.jpg" alt="hero2" width="100%" height="750">
+            <div class="carousel-caption">
+              <h3 style="font-size: 30px; font-family: cursive;">Golden<span style="color: rgb(255, 208, 0); ;"> Luxury</span></h3>
+              <p style="font-size: 20px;font-family: monospace;">"Be faithful to your own taste, because nothing you really like is ever out of style."</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="4.jpg" alt="hero3" width="100%" height="750">
+            <div class="carousel-caption">
+              <h3 style="font-size: 30px; font-family: cursive;">Golden<span style="color: rgb(255, 208, 0); ;"> Luxury</span></h3>
+              <p style="font-size: 20px; font-family: monospace;">“Your home should tell the story of who you are, and be a collection of what you love.”</p>
+            </div>
+          </div>
+        </div>
+        <!--Left and right controls-->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    </section>
+
+
+
+
+    <!--SERVICES----->
+
+    <section class="services">
+      <div class="services d-flex flex-column align-items-center">
+        <!--services heading-->
+        <h1> Our Services</h1>
+        <!--services container-->
+        <div class="services-container mr-0 row justify-content-center d-flex align-items-stretch">
+          <!-- services column 1-->
+          <div class="services-box col-md-4 d-flex flex-column justify-content-around">
+            <div class="services-heading pb-3">
+              <p>COMMERCIAL <span> DESIGN</span></p>
+            </div>
+            <div class="services-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur veniam doloribus non harum, esse illum exercitationem eligendi odit odio laudantium explicabo libero rem veritatis consequatur qui inventore. Unde, voluptates quod.
+              </p>
+            </div>
+            <div class="services-img flex-grow-1">
+              <img src="5.jpg" class="rounded-lg" alt="Servicesimg" width="100%" height="100%">
+            </div>
+          </div>
+          <!-- services coloum 2-->
+          <div class="services-box col-md-4 d-flex flex-column justify-content-around">
+            <div class="services-heading pb-3">
+              <p>OFFICE <span> DESIGN</span></p>
+            </div>
+            <div class="services-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur veniam doloribus non harum, esse illum exercitationem eligendi odit odio laudantium explicabo libero rem veritatis consequatur qui inventore. Unde, voluptates quod.
+              </p>
+            </div>
+            <div class="services-img flex-grow-1">
+              <img src="6.jpg" class="rounded-lg" alt="Servicesimg" width="100%" height="100%">
+            </div>
+          </div>
+          <!--Services coloum 3-->
+          <div class="services-box col-md-4 d-flex flex-column justify-content-around">
+            <div class="services-heading pb-3">
+              <p>RESIDENTIAL <span> DESIGN</span></p>
+            </div>
+            <div class="services-text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur veniam doloribus non harum, esse illum exercitationem eligendi odit odio laudantium explicabo libero rem veritatis consequatur qui inventore. Unde, voluptates quod.
+              </p>
+            </div>
+            <div class="services-img flex-grow-1">
+              <img src="7.jpg" class="rounded-lg" alt="Servicesimg" width="100%" height="100%">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--project-container-->
+
+    <section class="project-container">
+      <div class="project-container">
+        <!-- projects-->
+        <div class="projects">
+          <!-- projects buttons -->
+          <ul class="nav nav-pills pro d-flex flex-md-row flex-column justify-content-center" role="tablist">
+            <li class="nav-item text-center">
+              <a class="nav-link rounded active" data-toggle="pill" href="#allprojects">All Projects</a>
             </li>
-            <li class="nav-item pr-4">
-              <a class="nav-link" href="About.html">ABOUT US</a>
+            <li class="nav-item text-center">
+              <a class="nav-link rounded" data-toggle="pill" href="#commercial">Commerical</a>
             </li>
-            <li class="nav-item pr-4">
-              <a class="nav-link" href="services.html">SERVICES</a>
+            <li class="nav-item text-center">
+              <a class="nav-link rounded" data-toggle="pill" href="#office">Office</a>
             </li>
-            <li class="nav-item pr-4">
-                <a class="nav-link" href="contact.html">CONTACT US</a>
-              </li>
+            <li class="nav-item text-center">
+              <a class="nav-link rounded" data-toggle="pill" href="#residential">Residential</a>
+            </li>
           </ul>
         </div>
-      </nav>
-
-
-      <!---HOME- Container--------->
-		
-		<div class="container-fluid d-flex flex-column">
-			<section class="carousel">
-				<div id="demo" class="carousel slide" data-ride="carousel">
-			          <!--indicators-->
-			        <ul class="carousel-indicators">
-			          <li data-target="#demo" data-slide-to="0" class="active"></li>
-			          <li data-target="#demo" data-slide-to="1"></li>
-			          <li data-target="#demo" data-slide-to="2"></li>
-			        </ul>
-			        <!--the slide show-->
-			        <div class="carousel-inner">
-			          <div class="carousel-item active">
-			            <img src="2.jpg" alt="hero1" width="100%" height="750">
-			            <div class="carousel-caption">
-			              <h3 style="font-size: 30px;font-family: cursive;">Golden<span style="color: rgb(255, 208, 0); ;"> Luxury</span></h3>
-			              <p style="font-size: 20px; font-family: monospace;">“Every design choice we make has a sensual effect on us.”</p>
-			            </div>   
-			          </div>
-			          <div class="carousel-item">
-			            <img src="3.jpg" alt="hero2" width="100%" height="750">
-			            <div class="carousel-caption">
-			              <h3 style="font-size: 30px; font-family: cursive;">Golden<span style="color: rgb(255, 208, 0); ;"> Luxury</span></h3>
-			              <p style="font-size: 20px;font-family: monospace;">"Be faithful to your own taste, because nothing you really like is ever out of style."</p>
-			            </div>   
-			          </div>
-			          <div class="carousel-item">
-			            <img src="4.jpg" alt="hero3" width="100%" height="750">
-			            <div class="carousel-caption">
-			              <h3 style="font-size: 30px; font-family: cursive;">Golden<span style="color: rgb(255, 208, 0); ;"> Luxury</span></h3>
-			              <p style="font-size: 20px; font-family: monospace;">“Your home should tell the story of who you are, and be a collection of what you love.”</p>
-			            </div>   
-			          </div>
-			        </div>
-			        <!--Left and right controls-->
-			        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-			          <span class="carousel-control-prev-icon"></span>
-			        </a>
-			        <a class="carousel-control-next" href="#demo" data-slide="next">
-			          <span class="carousel-control-next-icon"></span>
-			        </a>
-      			</div>
-			</section>
-
-
-
-
-			<!--SERVICES----->
-
-		    <section class="services">
-		    	<div class="services d-flex flex-column align-items-center">
-		        <!--services heading-->
-			        <h1> Our Services</h1>
-			        <!--services container-->
-			        <div class="services-container mr-0 row justify-content-center d-flex align-items-stretch">
-			            <!-- services column 1-->
-			            <div class="services-box col-md-4 d-flex flex-column justify-content-around">
-			                <div class="services-heading pb-3">
-			                	<p>COMMERCIAL <span> DESIGN</span></p>
-			                </div>
-			                <div class="services-text">
-			                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur veniam doloribus non harum, esse illum exercitationem eligendi odit odio laudantium explicabo libero rem veritatis consequatur qui inventore. Unde, voluptates quod.</p>
-			                </div>
-			                <div class="services-img flex-grow-1">
-			                    <img src="5.jpg" class="rounded-lg" alt="Servicesimg" width="100%" height="100%">
-			                </div>
-			            </div>
-			            <!-- services coloum 2-->
-			            <div class="services-box col-md-4 d-flex flex-column justify-content-around">
-			            	<div class="services-heading pb-3">
-			                	<p>OFFICE <span> DESIGN</span></p>
-			                </div>
-			                <div class="services-text">
-			                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur veniam doloribus non harum, esse illum exercitationem eligendi odit odio laudantium explicabo libero rem veritatis consequatur qui inventore. Unde, voluptates quod.</p>
-			                </div>
-			                <div class="services-img flex-grow-1">
-			                	<img src="6.jpg" class="rounded-lg" alt="Servicesimg" width="100%" height="100%">
-			                </div>
-			            </div>
-			            <!--Services coloum 3-->
-			            <div class="services-box col-md-4 d-flex flex-column justify-content-around">
-			                <div class="services-heading pb-3">
-			                	<p>RESIDENTIAL <span> DESIGN</span></p>
-			                </div>
-			                <div class="services-text">
-			                	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur veniam doloribus non harum, esse illum exercitationem eligendi odit odio laudantium explicabo libero rem veritatis consequatur qui inventore. Unde, voluptates quod.</p>
-			                </div>
-			                <div class="services-img flex-grow-1">
-			                	<img src="7.jpg" class="rounded-lg" alt="Servicesimg" width="100%" height="100%">
-			                </div>
-			            </div>
-			        </div>
-		        </div>
-		    </section>
-
-
-
-		    <!--project-container-->
-
-		    <section class="project-container">
-		    	<div class="project-container">
-		        	<!-- projects-->
-		            <div class="projects">
-		            	<!-- projects buttons -->
-			            <ul class="nav nav-pills pro d-flex flex-md-row flex-column justify-content-center" role="tablist">
-			              <li class="nav-item text-center">
-			                <a class="nav-link rounded active" data-toggle="pill" href="#allprojects">All Projects</a>
-			              </li>
-			              <li class="nav-item text-center">
-			                <a class="nav-link rounded" data-toggle="pill" href="#commercial">Commerical</a>
-			              </li>
-			              <li class="nav-item text-center">
-			                <a class="nav-link rounded" data-toggle="pill" href="#office">Office</a>
-			              </li>
-			              <li class="nav-item text-center">
-			                <a class="nav-link rounded" data-toggle="pill" href="#residential">Residential</a>
-			              </li>
-			            </ul>
-		            </div>
-		            <!-- project images -->
-		            <div class="tab-content">
-		            	<!--All projects-->
-		                <div id="allprojects" class="tab-pane active"><br>
-			                <div class="row justify-content-center">
-			                  <!--commerical-->
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="commercial1.jpg" alt="commercial" width="100%" height="100%">
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Commerical</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div> 
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="commercial2.jpg" alt="commercial" width="100%" height="100%">
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Commerical</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div> 
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="commercial3.jpg" alt="commercial" width="100%" height="100%">
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Commerical</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div> 
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="commercial4.jpg" alt="commercial" width="100%" height="100%">
-			                    <!--content on image--> 
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Commerical</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div>
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="commercial5.jpg" alt="commercial" width="100%" height="100%"> 
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Commerical</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div>
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="commercial6.jpg" alt="commercial" width="100%" height="100%"> 
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Commerical</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div>
-			                  </div>
-			                  <!--office-->
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="office1.jpg" alt="office" width="100%" height="100%"> 
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Office</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div>
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="office2.jpg" alt="office" width="100%" height="100%">
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Office</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div> 
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="office3.jpg" alt="office" width="100%" height="100%"> 
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Office</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div>
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="office4.jpg" alt="office" width="100%" height="100%"> 
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Office</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div>
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="office5.jpg" alt="office" width="100%" height="100%">
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Office</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div> 
-			                  </div>
-			                  <!--residential-->
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="residential1.jpg" alt="residential" width="100%" height="100%"> 
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Residential</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div>
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="residential2.jpg" alt="residential" width="100%" height="100%"> 
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Residential</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div>
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="residential3.jpg" alt="residential" width="100%" height="100%">
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Residential</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div>
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="residential4.jpg" alt="residential" width="100%" height="100%">
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Residential</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div>
-			                  </div>
-			                  <div class="col-9 col-sm-6 col-md-3 py-3">
-			                    <img class="rounded-lg" src="residential5.jpg" alt="residential" width="100%" height="100%">
-			                    <!--content on image-->
-			                    <div class="content" style="object-fit:cover;">
-			                      <h4>Residential</h4>
-			                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                    </div>
-			                  </div>
-			                </div>
-		                </div>
-		                <!--commerical images-->
-		                <div id="commercial" class="tab-pane fade "><br>
-		                	<div class="row d-flex justify-content-center">
-		                    	<div class="col-9 col-md-4 py-3">
-				                    <img class="rounded-lg" src="commercial1.jpg" alt="commercial" width="100%" height="100%">
-				                    <!--content on image--> 
-				                    <div class="content" style="object-fit:cover;">
-				                      <h4>Commerical</h4>
-				                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                    </div>
-		                  		</div>
-			                    <div class="col-9 col-md-4 py-3">
-				                    <img class="rounded-lg" src="commercial2.jpg" alt="commercial" width="100%" height="100%"> 
-				                    <!--content on image-->
-				                    <div class="content" style="object-fit:cover;">
-				                      <h4>Commerical</h4>
-				                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                    </div>
-			                  	</div>
-				                <div class="col-9 col-md-4 py-3">
-				                    <img class="rounded-lg" src="commercial3.jpg" alt="commercial" width="100%" height="100%"> 
-				                    <!--content on image-->
-				                    <div class="content" style="object-fit:cover;">
-				                      <h4>Commerical</h4>
-				                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                    </div>
-				                </div>
-				                <div class="col-9 col-md-4 py-3">
-				                    <img class="rounded-lg" src="commercial4.jpg" alt="commercial" width="100%" height="100%">
-				                    <!--content on image-->
-				                    <div class="content" style="object-fit:cover;">
-				                      <h4>Commerical</h4>
-				                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                    </div> 
-				                </div>
-				                <div class="col-9 col-md-4 py-3">
-				                    <img class="rounded-lg" src="commercial5.jpg" alt="commercial" width="100%" height="100%">
-				                    <!--content on image-->
-				                    <div class="content" style="object-fit:cover;">
-				                      <h4>Commerical</h4>
-				                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                    </div> 
-				                </div>
-				                <div class="col-9 col-md-4 py-3">
-				                    <img class="rounded-lg" src="commercial6.jpg" alt="commercial" width="100%" height="100%"> 
-				                    <!--content on image-->
-				                    <div class="content" style="object-fit:cover;">
-				                      <h4>Commerical</h4>
-				                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                    </div>
-				                </div>
-							</div>
-		                </div>
-		                <!--office images-->
-		                <div id="office" class="tab-pane fade"><br>
-			                <div class="row d-flex justify-content-center">
-				                <div class="col-9 col-md-4 py-3">
-				                	<img class="rounded-lg" src="office1.jpg" alt="office" width="100%" height="100%"> 
-				                  	<!--content on image-->
-				                  	<div class="content" style="object-fit:cover;">
-				                    	<h4>Office</h4>
-				                    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                 	</div>
-				                </div>
-				                <div class="col-9 col-md-4 py-3">
-					                <img class="rounded-lg" src="office2.jpg" alt="office" width="100%" height="100%">
-					                <!--content on image--> 
-					                <div class="content" style="object-fit:cover;">
-					                	<h4>Office</h4>
-					                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-					                </div>
-				                </div>
-				                <div class="col-9 col-md-4 py-3">
-				                  	<img class="rounded-lg" src="office3.jpg" alt="office" width="100%" height="100%">
-				                  	<!--content on image-->
-				                  	<div class="content" style="object-fit:cover;">
-				                    	<h4>Office</h4>
-				                    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                  	</div> 
-				                </div>
-				                <div class="col-9 col-md-4 py-3">
-					                <img class="rounded-lg" src="office4.jpg" alt="office" width="100%" height="100%">
-					                <!--content on image-->
-					                <div class="content" style="object-fit:cover;">
-					                	<h4>Office</h4>
-					                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-					                </div> 
-				                </div>
-				                <div class="col-9 col-md-4 py-3">
-				                	<img class="rounded-lg" src="office5.jpg" alt="office" width="100%" height="100%">
-				                  	<!--content on image-->
-				                  	<div class="content" style="object-fit:cover;">
-				                    	<h4>Office</h4>
-				                    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                  	</div> 
-				                </div>
-				            </div>
-		              	</div>
-		              	<!--residential images-->
-		              	<div id="residential" class="tab-pane fade"><br>
-			                <div class="row d-flex justify-content-center">
-				                <div class="col-9 col-md-4 py-3">
-				                	<img class="rounded-lg" src="residential1.jpg" alt="residential" width="100%" height="100%"> 
-				                  	<!--content on image-->
-				                  	<div class="content" style="object-fit:cover;">
-				                    	<h4>Residential</h4>
-				                    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                  	</div>
-			                	</div>
-			                	<div class="col-9 col-md-4 py-3">
-			                  		<img class="rounded-lg" src="residential2.jpg" alt="residential" width="100%" height="100%">
-			                  		<!--content on image-->
-			                  		<div class="content" style="object-fit:cover;">
-			                    		<h4>Residential</h4>
-			                    		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-			                  		</div>
-			                	</div>
-				                <div class="col-9 col-md-4 py-3">
-				                  	<img class="rounded-lg" src="residential3.jpg" alt="residential" width="100%" height="100%">
-				                  	<!--content on image-->
-				                  	<div class="content" style="object-fit:cover;">
-				                    	<h4>Residential</h4>
-				                    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                  	</div>
-				                </div>
-				                <div class="col-9 col-md-4 py-3">
-				                  	<img class="rounded-lg" src="residential4.jpg" alt="residential" width="100%" height="100%">
-				                  	<!--content on image-->
-				                  	<div class="content" style="object-fit:cover;">
-				                    	<h4>Residential</h4>
-				                    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                  	</div>
-			                	</div>
-				                <div class="col-9 col-md-4 py-3">
-				                  	<img class="rounded-lg" src="residential5.jpg" alt="residential" width="100%" height="100%">
-				                  	<!--content on image-->
-				                  	<div class="content" style="object-fit:cover;">
-				                    	<h4>Residential</h4>
-				                    	<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
-				                  	</div>
-				                </div>
-			              	</div>
-		              	</div>
-		            </div>
-          		</div>
-		    </section>
+        <!-- project images -->
+        <div class="tab-content">
+          <!--All projects-->
+          <div id="allprojects" class="tab-pane active"><br>
+            <div class="row justify-content-center">
+              <!--commerical-->
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="commercial1.jpg" alt="commercial" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Commerical</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="commercial2.jpg" alt="commercial" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Commerical</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="commercial3.jpg" alt="commercial" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Commerical</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="commercial4.jpg" alt="commercial" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Commerical</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="commercial5.jpg" alt="commercial" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Commerical</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="commercial6.jpg" alt="commercial" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Commerical</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <!--office-->
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="office1.jpg" alt="office" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Office</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="office2.jpg" alt="office" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Office</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="office3.jpg" alt="office" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Office</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="office4.jpg" alt="office" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Office</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="office5.jpg" alt="office" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Office</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <!--residential-->
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="residential1.jpg" alt="residential" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Residential</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="residential2.jpg" alt="residential" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Residential</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="residential3.jpg" alt="residential" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Residential</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="residential4.jpg" alt="residential" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Residential</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-sm-6 col-md-3 py-3">
+                <img class="rounded-lg" src="residential5.jpg" alt="residential" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Residential</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--commerical images-->
+          <div id="commercial" class="tab-pane fade "><br>
+            <div class="row d-flex justify-content-center">
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="commercial1.jpg" alt="commercial" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Commerical</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="commercial2.jpg" alt="commercial" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Commerical</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="commercial3.jpg" alt="commercial" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Commerical</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="commercial4.jpg" alt="commercial" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Commerical</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="commercial5.jpg" alt="commercial" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Commerical</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="commercial6.jpg" alt="commercial" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Commerical</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--office images-->
+          <div id="office" class="tab-pane fade"><br>
+            <div class="row d-flex justify-content-center">
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="office1.jpg" alt="office" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Office</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="office2.jpg" alt="office" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Office</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="office3.jpg" alt="office" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Office</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="office4.jpg" alt="office" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Office</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="office5.jpg" alt="office" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Office</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--residential images-->
+          <div id="residential" class="tab-pane fade"><br>
+            <div class="row d-flex justify-content-center">
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="residential1.jpg" alt="residential" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Residential</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="residential2.jpg" alt="residential" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Residential</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="residential3.jpg" alt="residential" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Residential</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="residential4.jpg" alt="residential" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Residential</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+              <div class="col-9 col-md-4 py-3">
+                <img class="rounded-lg" src="residential5.jpg" alt="residential" width="100%" height="100%">
+                <!--content on image-->
+                <div class="content" style="object-fit:cover;">
+                  <h4>Residential</h4>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui at maxime,</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
-		    <!--Contact-->
+    <!--Contact-->
 
-		    <section class="contact">
-		        <div class="contact">
-		        	<!--contact button-->
-		            <button type="button" class="contact-button rounded"><a href="contact.html" style="text-decoration: none;color: white;">Contact Us</a></button>
-		           
-		        </div>
-		    </section>
+    <section class="contact">
+      <div class="contact">
+        <!--contact button-->
+        <button type="button" class="contact-button rounded"><a href="contact.html" style="text-decoration: none;color: white;">Contact Us</a></button>
 
-		    <!---Working Hours  -->
+      </div>
+    </section>
 
-		    <section class="working-hours">
-	          	<div class="working-hours">
-	             	<div class="working-hours-container rounded p-3">
-		            	<p>Hours Of<span style="color: rgb(255, 208, 0);"> Working</span></p>
-		                <p>Monday to Friday :<span style="color: rgb(255, 208, 0);"> 10:00AM to 9:00PM</span></p>
-		                <p> Saturday: <span style="color: rgb(255, 208, 0);"> 10:00AM to 1:00PM</span></p>
-		                <p> Sunday<span style="color: rgb(255, 208, 0);"> Holiday</span></p>
-	             	</div>
-	         	</div>
-		    </section>
+    <!---Working Hours  -->
+
+    <section class="working-hours">
+      <div class="working-hours">
+        <div class="working-hours-container rounded p-3">
+          <p>Hours Of<span style="color: rgb(255, 208, 0);"> Working</span></p>
+          <p>Monday to Friday :<span style="color: rgb(255, 208, 0);"> 10:00AM to 9:00PM</span></p>
+          <p> Saturday: <span style="color: rgb(255, 208, 0);"> 10:00AM to 1:00PM</span></p>
+          <p> Sunday<span style="color: rgb(255, 208, 0);"> Holiday</span></p>
+        </div>
+      </div>
+    </section>
+
+
+    <!---Contact Us-------->
+    <section class="contact_1">
+      <div class="footer_1">
+        <div class="row">
+          <div class="col-lg-5 md-5 sm-6"><img class="image" src="icon.jpg" alt="">
+          </div>
+          <div class="col-lg-6 md-5  sm-6 col_1 ">
+            <p class="para" >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+              laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.</p>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="contact1">
+            <h4><b>Contact Us</b> </h4>
+            <br>
+
+            <p > Road No 6,Banjara Hills ,Hyderabad ,Telangana</p>
+            <br>
+            <p><b>Phone:</b><span >9876543210</span></p>
+            <br>
+            <p><b>Web:</b><a href="#"><span >www.goldenluxury.com</span></a></p>
+            <br>
+            <p><b>Email:</b><a href="#"><span >goldenluxury111@gamil.com</span></a></p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+    <!---footer-------->
+
+    <section class="footer">
+      <footer>
+
+        <h1>Join Us</h1>
+
+
+        <div id="contact">
+          <span><a href="#"><i class="fa fa-instagram" style="font-size:40px"></i></a></span>
+          <span><a href="#"><i class="fa fa-twitter" style="font-size:40px"></i></a></span>
+          <span><a href="#"><i class="fa fa-facebook" style="font-size:35px"></i></a></span>
+          <span><a href="#"><i class="fa fa-github" style="font-size:35px"></i></a></span>
+
+        </div>
+
+        <h3 style="margin-top:5px"></h3>
+
+        <p style="color:black;">&#169; Copyright 2020</p>
 
 
 
-		    <!---footer-------->
-
-		    <section class="footer">
-		    	<footer> 	
-		          	<div class="footer pb-2">
-			            <div class="row pb-2 justify-content-between">
-			            	<div class="col-md-6">
-			                	<div class="content d-flex flex-column align-items-center">
-			                  		<img src="icon.jpg" width="400px" height="200px" class="pb-3">
-			                  		<p style="color:white;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci ad eveniet aliquid. Quo dolores blanditiis non repellendus consequatur magnam fugit quaerat quisquam, aperiam at labore illum unde minima sequi minus?</p>
-			                  		<p style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi provident magni, dolores eius nemo consectetur aperiam sed cupiditate neque quas a quae. Aliquam corporis ratione incidunt ad quos ipsa asperiores!</p>
-			                	</div>
-			              	</div>
-			              	<div class="col-md-4">
-				                <div class="contact1">
-				                    <h4>Contact Us</h4>
-				                  	<p> Road No 6,Banjara Hills ,Hyderabad ,Telangana</p>
-				                  	<p>Phone:<span style="color: rgb(255, 208, 0);">9876543210</span></p>
-				                  	<p>Web:<a href="#"><span style="color: rgb(255, 208, 0);">www.goldenluxury.com</span></a></p>
-				                  	<p>Email:<a href="#"><span style="color: rgb(255, 208, 0);">goldenluxury111@gamil.com</span></a></p>
-				                </div>
-			              	</div>
-			            </div>
-			            <div class="row pt-2 pb-3 px-4">
-			            	<div class="col-12">
-			            		<div class="bottom row align-items-between justify-content-between">
-						            <div class="copyright col-sm-6 text-sm-left text-center">
-						            	<p>	&#169; Copyright 2020</p>
-						            </div>
-						            <div class="social-media col-sm-6 text-sm-right text-center">
-						            	<a href="#"><i class="fa fa-facebook-f"></i></a>
-						                <a href="#"><i class="fa fa-twitter"></i></a>
-						              	<a href="#"><i class="fa fa-instagram"></i></a>
-						              	<a href="#"> <i class="fa fa-skype"></i></a>
-						                <a href="#"><i class="fa fa-youtube-play"></i></a>
-						        	</div>
-		         				</div>
-			            	</div>
-			            </div>
-			        </div>             
-          		</footer>
-		    </section>
-		</div> 
+      </footer>
+    </section>
+  </div>
 
 
 
 
 
-          
-          
 
-   </body>
+
+
+</body>
+
 </html>
-

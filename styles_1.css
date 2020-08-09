@@ -1,0 +1,158 @@
+
+footer {
+  padding-top: 25px;
+  /* font-family: 'RouseSansRegular'; */
+  letter-spacing: 2px;
+  /* background: white; */
+  background: rgb(255, 208, 0);
+  /* font-family:  'Lucida Sans Unicode'; */
+}
+/* .fa{
+  margin:15px;
+} */
+h1{
+  text-align: center;
+  color:black;
+}
+h3{
+  text-align: center;
+  letter-spacing: 3px;
+
+}
+h4{
+    text-align: center;
+    border-bottom: 2px dashed black;
+    font-size: 2rem  !important;
+    letter-spacing: 3px;
+
+
+
+}
+footer span a i{
+  color: black;
+    margin:2%;
+}
+span{
+  margin: auto;
+}
+
+#contact{
+
+text-align: center;
+
+}
+#email{
+  color:black;
+  text-decoration: none;
+  /* text-align: center; */
+}
+p{
+  text-align: center;
+  font-size: 1.3rem;
+}
+p a span{
+  color:black;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+.col{
+
+    margin-left: auto;
+    align-items: center;
+
+}
+.contact_1{
+  background: black;
+  width: 100%;
+
+}
+.contact1{
+  margin: auto;
+  background: rgb(255, 208, 0);
+  border-radius: 3%;
+  padding:1.5%;
+  /* box-shadow: 3px 1px 1px rgb(255, 208, 0); */
+  letter-spacing: 1px;
+  font-size: 1.2rem  !important;
+
+
+}
+.row{
+  margin-top: 5%;
+  margin-bottom:5%;
+}
+
+
+.image{
+  height:105%;
+  width:62%;
+  /* margin-left: 30%; */
+    /* margin: auto; */
+    margin-left: auto;
+  margin-right: auto;
+  display: block;
+  /* position: static; */
+
+
+}
+.col_1{
+  padding-top: 5%;
+  /* margin-left: auto; */
+  /* right:10%; */
+
+}
+.check{
+  background: black;
+}
+
+.para{
+
+text-align: center;
+ margin: auto;
+ color: rgb(255, 208, 0);
+}
+
+.footer{
+  /* background: white; */
+  background: rgb(255, 208, 0);
+}
+.fa{
+  font-size: 2rem !important;
+  text-align:center;
+
+
+}
+.top_1{
+  margin-top:5%;
+}
+
+.fa-instagram:hover{
+  opacity: 1;
+  color:#f638dc;
+
+
+}
+.fa-twitter:hover{
+  opacity: 1;
+  color:#00acee;
+}
+.fa-facebook:hover{
+  /* opacity: 0.5; */
+  color:#3b5998;
+  opacity: 1;
+}
+.fa-github:hover{
+  opacity: 0.5;
+}
+.change{
+  background: black;
+}
+/* .navbar-toggler-icon{
+  color: black !important;
+} */
+
+#email:hover{
+  text-decoration: underline;
+  color:black;
+  cursor: pointer;
+}
